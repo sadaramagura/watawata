@@ -1,7 +1,7 @@
 version: 1
 services:
   - type: web
-    name: わかめtube
+    name: followinf
     env: node
     plan: free
     buildCommand: npm install
