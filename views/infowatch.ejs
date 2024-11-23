@@ -84,6 +84,12 @@
       <p><%- (videoData.videoDes || "").replace(/\n/g, "<br>") %></p>
   </div>
 </div>
+  <div class="comment-box">
+    <h2>コメント</h2>
+    <div class="iframe-container">
+      <iframe src="/comment/<%= videoId %>" scrolling="yes"></iframe>
+    </div>
+  </div>
    <style>
 	* {
 		--plyr-color-main: #ff8181;
